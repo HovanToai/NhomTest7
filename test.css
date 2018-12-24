@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper .header .navbar ul li {
+  margin-left: 10px;
+  background: grey;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.wrapper .header{
+    border-bottom: 5px solid white;
+}
+.wrapper .header .nav a{
+    color: white;
+    padding: 0 20px;
+   }
+.wrapper .header .navbar ul li a i{
+    color: white;
+    font-size: 16px;
+}
+.wrapper .menu .navbar{
+   padding: 0;
+}
+.wrapper .menu .navbar ul li{
+ margin-left: 20px;
+}
+.wrapper .menu .navbar .logo{
+    background: aqua;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.wrapper .slideshow{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.wrapper .slideshow .hinhanh{
+    width: 100%;
+    height: 500px;
+  
+}
+.wrapper .slideshow .hinhanh img{
+    width: 100%;
+    height: 100%;;
+}
+
+.wrapper .slideshow .title{
+    color: white;
+    position: absolute;
+    top: 70%;
+    left:2%;
+    transform: translate(0, -50%);
+}
+.wrapper .slideshow .title h2{
+    text-transform: uppercase;
+}
+.wrapper .slideshow .title h4{
+    text-transform: uppercase;
+}
+.wrapper .slideshow .title a{
+    padding: 15px 30px;
+}
+@media (max-with:768px){
+    .wrapper .slideshow .hinhanh{
+       height: 300px;
+    }
+}
