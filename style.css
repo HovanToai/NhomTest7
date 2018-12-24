@@ -1,0 +1,127 @@
+.container-fluid{
+	height: 1000px;
+	/*background: black;*/
+}
+.Our-Gallery{
+	width: 100%;
+	height: 850px;
+	/*background: #ccc;*/
+}
+.Our-Gallery .h2{
+	text-align: center;
+	font-weight: bold;
+	transition-duration: 0.5s;
+}
+.Our-Gallery .h2:hover{
+	color: green;
+	transform: scale(1.2);
+}
+.Our-Gallery p{
+	text-align: center;
+	padding: 3%;
+}
+.Our-Gallery .row{
+	height: auto;
+}
+.Our-Gallery .row .col-md-4{
+	height: 200px;
+	margin-bottom: 1%;
+	/*background: #ccc;*/
+}
+.Our-Gallery .row .col-md-4 img{
+	width: 100%;
+	height: 100%;
+	transition-duration: 2s;
+}
+.Our-Gallery .row .col-md-4 img:hover{
+	transform: rotate(360deg);
+}
+/*end Our-Gallery*/
+.Our-blog{
+	height: 720px;
+	/*background: #ccc;*/
+}
+.Our-blog .h2{
+	text-align: center;
+	font-weight: bold;
+	transition-duration: 0.5s;
+}
+.Our-blog .h2:hover{
+	color: green;
+	transform: scale(1.2);
+}
+.Our-blog p{
+	text-align: center;
+	padding: 4%;
+}
+.Our-blog .row{
+	height: auto;
+}
+.Our-blog .row .col-md-4{
+	height: 500px;
+	/*background: white;*/
+}
+.Our-blog .row .col-md-4 img{
+	width: 100%;
+	height: 200px;
+	transition-duration: 1s;
+}
+.Our-blog .row .col-md-4 img:hover{
+	transform: rotate(20deg);
+}
+.Our-blog .row .col-md-4 .h3{
+	padding: 4%;
+}
+.Our-blog .row .col-md-4 p{
+	padding: 4%;
+	text-align: justify;
+}
+.Our-blog .row .footer .row{
+	height: auto;
+}
+.Our-blog .row .footer .row i{
+	margin: 2% 5% 5% 5%;
+	float: left;
+	transition-duration: 0.5s;
+}
+.Our-blog .row .footer .row i:hover{
+	color: green;
+	transform: scale(1.2);
+}
+.Our-blog .row .footer .row b{
+	display: block;
+	float: left;
+}
+@media (max-width: 768px){
+	.Our-Gallery{
+		height: 1300px;
+	}
+	.Our-blog{
+		height: 1700px;
+	}
+	.Our-blog .row .col-md-4{
+		height: 490px;
+	}
+}
+@media (max-width: 576px){
+	.Our-Gallery{
+		height: 2100px;
+	}
+}
+@media (max-width: 360px){
+	.Our-Gallery{
+		height: 2150px;
+	}
+	.Our-blog{
+		height: 1750px;
+	}
+	.Our-blog .row .col-md-4{
+		height: 480px;
+	}
+	.Our-blog .row .footer .row i{
+		/*display: none;*/
+	}
+	.Our-blog .row .footer .row b{
+		display: none;
+	}
+}
